@@ -214,6 +214,16 @@ input:hover{
   margin-bottom:5%;
 }
 
+.add-space {
+  margin-top: 5vh;
+  height: 5vh;
+  background: #158cba;
+}
+
+#reflect {
+  -webkit-box-reflect: below 1px -webkit-gradient(linear, right top, right bottom, from(transparent), color-stop(40%, transparent), to(rgba(255, 255, 255, 0.1)));
+}
+
 #nav, #button{
   align-content: center;
   background: linear-gradient(to right,rgb(60, 6, 255), rgb(0, 229, 255) );
