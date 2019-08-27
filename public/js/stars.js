@@ -8,8 +8,8 @@ function addStars() {
 
   for (i = 0; i < 200; i++) {
     let randomSize = Math.floor(Math.random() * (6) + 1);
-    let randomTop = Math.floor(Math.random() * (height) + 1);
-    let randomLeft = Math.floor(Math.random() * (width) + 1);
+    let randomTop = Math.floor(Math.random() * (height) + 10);
+    let randomLeft = Math.floor(Math.random() * (width) + 10);
     let randomOpacity = (Math.floor(Math.random() * (10) + 5) / 10);
     let randomDuration = (Math.floor(Math.random() * (20) + 5) / 10);
     let randomColor = Math.floor(Math.random() * (360) + 1);
