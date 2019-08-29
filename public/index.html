@@ -14,26 +14,29 @@
 
 </head>
 
-<body id="home">
-    <header class="section">
-        <div class="video-container">
-            <!-- video starts autiomatically -->
-            <!-- muted so browser does not block it -->
-            <video autoplay loop muted>
-                <source src="./video home page/assets/video/game-demo3.mp4" type="video/mp4">
-            </video>
+<body>
+    <div class="container">
+        <div class="row">
+            <header class="section">
+                <div class="video-container">
+                    <!-- video starts autiomatically -->
+                    <!-- muted so browser does not block it -->
+                    <video autoplay loop muted>
+                        <source src="./video home page/assets/video/game-demo3.mp4" type="video/mp4">
+                    </video>
+                </div>
+                <!-- overlay background -->
+                <div class="overlay"></div>
+                <div class="header-content" id="reflect">
+                    <h2>Galaxy Horizons</h2>
+                    <!-- link to sign up and login pages -->
+                    <a href="/signup" id="nav" class="btn btn-secondary btn-sm">Sign Up</a>
+                    <a href="/login" id="nav" class="btn btn-secondary btn-sm">Log In</a>
+                </div>
+            </header>
         </div>
-            <!-- overlay background -->
-            <div class="overlay"></div>
-            <div class="header-content">
-                <h2>Galaxy Horizons</h2>
-                <!-- link to sign up and login pages -->
-                <a href="/signup" id="nav" class="btn btn-secondary btn-sm">Sign Up</a>
-                <a href="/login" id="nav" class="btn btn-secondary btn-sm">Log In</a>
-            </div>
-        
-    </header>
-    </header>
+    </div>
+    <footer id="home-footer"></footer>
 </body>
 
 </html>
